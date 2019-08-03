@@ -1,7 +1,7 @@
 connection: "@{CONNECTION_NAME}"
 label: "Block GA360"
 
-include: "//block-ga360-config/sessions_config.view"
+include: "//@{CONFIG_PROJECT_NAME}/sessions_config.view"
 
 # View Includes
 include: "//app-event-adapter/*.view"
