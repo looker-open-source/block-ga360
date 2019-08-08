@@ -1,4 +1,6 @@
-project_name: "block-ga360"
+project_name: "block-ga360afsd"
+
+################ Constants ################
 
 # Used in google_analytics_block.model connection param
 constant: CONNECTION_NAME {
@@ -22,7 +24,7 @@ constant: CONFIG_PROJECT_NAME {
   export: override_required
 }
 
-#############################################
+################ Dependencies ################
 
 remote_dependency: app-event-adapter {
   url: "git://github.com/looker/app-event-ga360-bigquery"
@@ -44,4 +46,12 @@ remote_dependency: app-event {
 
 local_dependency: {
   project: "@{CONFIG_PROJECT_NAME}"
+
+  override_constant: SCHEMA_NAME {
+    value: "@{SCHEMA_NAME}"
+  }
+
+  override_constant: GA360_TABLE_NAME {
+    value: "@{GA360_TABLE_NAME}"
+  }
 }
