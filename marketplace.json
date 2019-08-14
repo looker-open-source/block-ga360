@@ -1,4 +1,11 @@
 {
+  "label": "Google Analytics 360",
+  "category_label": "Tools",
+  "branding": {
+    "image_uri": "https://wwwstatic-a.lookercdn.com/blocks/logos/google.png",
+    "tagline": "Understand how your users are engaging with your product or webpage with Looker's Block for Google Analytics 360"
+  },
+
   "constants": {
     "CONNECTION_NAME": {
       "label": "Connection Name",
