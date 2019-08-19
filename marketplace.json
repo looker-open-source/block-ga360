@@ -34,7 +34,7 @@
   "auxiliary_projects": [
     {
       "git_uri": "git://github.com/looker/block-ga360-config.git",
-      "git_ref": "66e6c0ab988272c8a9641edc594fdc8d6b03dad3",
+      "git_ref": "abe6b3e0ff35c285e840525abb33d5b3e19e0e58",
       "label": "Block GA360 Config",
       "constant_name": "CONFIG_PROJECT_NAME"
     }
