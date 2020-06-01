@@ -1,0 +1,39 @@
+{
+  "label": "Google Analytics 360",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "https://marketplace-api.looker.com/block-icons/google-analytics.png",
+    "tagline": "Understand how your users are engaging with your product or webpage with Looker's Block for Google Analytics 360"
+  },
+
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    },
+    "SCHEMA_NAME": {
+      "label": "Schema Name"
+    },
+    "GA360_TABLE_NAME": {
+      "label": "GA360 Table Name",
+      "description": "The table name of your GA360 data. Note that you should include '_*' at the tail end of your input to account for all date partitioned tables."
+    },
+    "CONFIG_PROJECT_NAME": {
+      "label": "Config Project Name"
+    }
+  },
+  "models": [
+    {
+      "name": "block_ga360",
+      "connection_constant": "CONNECTION_NAME"
+    }
+  ],
+  "auxiliary_projects": [
+    {
+      "git_uri": "git://github.com/looker/block-ga360-config.git",
+      "git_ref": "e9dc7c26551bff0119e5b9ad5719d59e418a73bf",
+      "label": "Google Analytics 360 Config",
+      "constant_name": "CONFIG_PROJECT_NAME"
+    }
+  ]
+}
