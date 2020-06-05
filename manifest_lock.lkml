@@ -1,6 +1,6 @@
 remote_dependency: app-event-adapter {
   url: "git://github.com/looker/app-event-ga360-bigquery"
-  ref: "7cc3cc60aafb49f932b1284c7758ced1eb67621a"
+  ref: "10df28be3bc2bb4e0879c386abab711aec5a94ce"
 }
 remote_dependency: app-event-ga360 {
   url: "git://github.com/looker/app-event-ga360"
