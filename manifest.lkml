@@ -4,7 +4,7 @@ project_name: "block_ga360"
 
 # Used in google_analytics_block.model connection param
 constant: CONNECTION_NAME {
-  value: "looker_app_2"
+  value: "ga_generated"
   export: override_required
 }
 
@@ -22,7 +22,7 @@ constant: GA360_TABLE_NAME {
 }
 
 constant: CONFIG_PROJECT_NAME {
-  value: "block-ga360-config"
+  value: "block_ga360_config"
   export: override_required
 }
 
