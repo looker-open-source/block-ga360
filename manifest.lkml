@@ -22,7 +22,7 @@ constant: GA360_TABLE_NAME {
 }
 
 constant: CONFIG_PROJECT_NAME {
-  value: "block_ga360_config"
+  value: "block-ga360-config"
   export: override_required
 }
 
